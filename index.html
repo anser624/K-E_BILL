@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box">
+          <div class="img-bg"></div>
+        <div class="info-box" id="infobox">
+          <!-- <img src="img/ke.jpg" alt="" class="img" title="ke" /> -->
+
+          <label for="name">customer Name</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="unit">Number of units</label>
+          <input type="number" name="unit" id="unit"  />
+
+          <label for="chargesunit">Charges per unit</label>
+          <input
+            type="number"
+            name="name"
+            id="perunit"
+            value="45"
+            disabled
+          />
+          <label for="penalty">Late Payment Penalty:</label>
+          <input
+            type="number"
+            name="name"
+            id="penalty"
+            value="300"
+            disabled
+          />
+          <button type="submit" class="bill" id="bill" onclick="btnclick()">GENERATE-BILL</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
