@@ -1,17 +1,4 @@
-// let a = 17.3 ;
-// let b = 7;
 
-// console.log(a*b);
-
-// let ab = a * b ;
-
-// console.log(ab.toFixed(2));
-
-// let btn = document.getElementById('bill');
-
-// btn.addEventListener('click', function(){
-//     console.log('Button Clicked');
-// });
 
 function btnclick() {
   let unitid = document.getElementById("unit").value;
